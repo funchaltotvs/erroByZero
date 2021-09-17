@@ -11,6 +11,10 @@ public class OutrosTestes {
 		if(resultado2 < 0) System.out.println("ALGO ESTA ERRADO");
 		int resultado3 = mod(6, -2);
 		if(resultado3 < 0) System.out.println("ALGO ESTA ERRADO");
+		int resultado4 = mod(0, -2);
+		if(resultado4 < 0) System.out.println("ALGO ESTA ERRADO");
+		int resultado5 = mod(0, 2);
+		if(resultado5 < 0) System.out.println("ALGO ESTA ERRADO");
 		
 	}
 	
