@@ -18,8 +18,7 @@ public class DeveTerSucesso {
 	
 	public static int mod(int x,  int y) {
 		if(y == 0) y = 1;
-	    int result = x % y;
-	    return result;
+	    return x % y;
 	}
 
 }

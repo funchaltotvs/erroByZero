@@ -17,7 +17,6 @@ public class DeveTerErroByZero {
 	}
 	
 	public static int mod(int x,  int y) {
-	    int result = x % y;
-	    return result;
+	    return x % y;
 	}
 }
